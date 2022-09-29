@@ -1,7 +1,7 @@
 
 const container = document.querySelector(".container");
 
-const career = ["singer", "dance", "flutist", "typist", "racist", "instructor"];
+const career = ["singer", "dancer", "flutist", "typist", "racist", "instructor"];
 
 let careerIndex = 0;
 let characterIndex = 0;
