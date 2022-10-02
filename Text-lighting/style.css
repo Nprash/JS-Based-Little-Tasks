@@ -1,0 +1,41 @@
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Okra, Helvetica, sans-serif;
+    font-weight: 550;
+}
+
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background: #111;
+}
+h2{
+    position: relative;
+    font-size: 3em;
+    color:#222;
+
+}
+h2::before{
+    content: attr(data-text);
+    position: absolute;
+    color: #fff;
+    width: 100px;
+    overflow: hidden;/* want to show content in only 100px widht */
+    white-space: nowrap; /* the content gets down when width 100px that will be not allowed to shown in down part*/
+    border-right: 4px solid #fff;
+    animation: animate 8s linear infinite;
+    /* filter: drop-shadow(0 0 20px #fff) drop-shadow(0 0 50px #fff); */
+}
+@keyframes animate{
+    0%{
+        width: 0;
+    }
+    70%,90%{
+        width: 100%;
+    }
+}
