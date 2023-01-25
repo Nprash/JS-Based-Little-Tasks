@@ -18,7 +18,7 @@ body{
     color: #222;
     font-size: 18px;
     position: relative;
-    overflow: hidden; /*we increased before content size to 300px to effect this on the button , so it will come out from the button limit s we use overflow: hidden over here*/
+    overflow: hidden; /*we increased before content size to 300px to effect this on the button , so it will come out from the button limit s we use overflow: hidden over here */
 
 }
 .btn span{

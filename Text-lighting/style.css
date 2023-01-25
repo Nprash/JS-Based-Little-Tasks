@@ -18,7 +18,6 @@ h2{
     position: relative;
     font-size: 3em;
     color:#222;
-
 }
 h2::before{
     content: attr(data-text);
